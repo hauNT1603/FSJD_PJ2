@@ -16,14 +16,14 @@ Install packages db-migration with global flag.
 Create `.env` file in root directory if it not exists
 ```
 POSTGRES_HOST=localhost
-DEV_POSTGRES_DB=dev_db
-TEST_POSTGRES_DB=test_db
+POSTGRES_DB=dev_db
+POSTGRES_TEST_DB=test_db
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres123!
 ENV=dev
-SECRET_KEY=keyJWT4me
 BCRYPT_PASSWORD=thanhnhm
 SALT_ROUNDS=10
+TOKEN_SECRET=thanhnhm123
 
 ```
 
