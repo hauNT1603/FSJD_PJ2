@@ -24,7 +24,7 @@ ENV=dev
 BCRYPT_PASSWORD=thanhnhm
 SALT_ROUNDS=10
 TOKEN_SECRET=thanhnhm123
-
+SECRET_KEY=keyJWT4me
 ```
 
 ### Format
