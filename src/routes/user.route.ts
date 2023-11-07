@@ -7,7 +7,7 @@ const userHandler = new UserHandlers();
 
 userRouter.get("/", authorization,userHandler.index);
 userRouter.get("/:id", authorization,userHandler.show);
-userRouter.post("/", authorization,userHandler.create);
+userRouter.post("/",userHandler.create);
 userRouter.put("/:id", authorization, userHandler.update);
 userRouter.delete("/:id", authorization, userHandler.deleteUser);
 

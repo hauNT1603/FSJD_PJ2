@@ -34,8 +34,7 @@ Build a JavaScript API based on requirements.
 - Show [token required]
   - GET
   - `http://localhost:3000/users/:id`
-- Create a new user[token required]
-  - POST
+- Create a new user
   - `http://localhost:3000/users/`
 - Update user[token required]
   - PUT
@@ -96,13 +95,18 @@ SECRET_KEY=keyJWT4me
 
 `npm run format` to run prettier
 
-
 ### Create Databases and Migrations
 
 CREATE DATABASE dev_db;
 CREATE DATABASE test_db;
 
 `npm run dev-migrations; npm run test-migrations;`
+
+### Database configuration
+- server `localhost`
+- database (default) port `5432`
+- database user `postgres`
+- database password `postgres123!`
 
 
 ### Start
