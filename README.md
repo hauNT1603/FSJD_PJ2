@@ -1,6 +1,71 @@
 # Project 2 - FullStack JS - Udacity-build-a-storefront-backend
 Build a JavaScript API based on requirements.
 
+#### Database
+
+- [Postgresql](https://www.postgresql.org/)
+
+## API Endpoints
+
+#### Products
+
+- Index
+  - GET
+  - `http://localhost:3000/products`
+- Show
+  - GET
+  - `http://localhost:3000/products/:id`
+- Create [token required]
+  - POST
+  - `http://localhost:3000/products/`
+- Update [token required]
+  - PUT
+  - `http://localhost:3000/products/:id`
+- Delete [token required] 
+  - DELETE
+  - `http://localhost:3000/products/:id`
+
+  ```
+
+#### Users
+
+- Index [token required]
+  - GET `http://localhost:3000/users/`
+- Show [token required]
+  - GET
+  - `http://localhost:3000/users/:id`
+- Create a new user[token required]
+  - POST
+  - `http://localhost:3000/users/`
+- Update user[token required]
+  - PUT
+  - `http://localhost:3000/users/:id`
+- Delete user[token required] 
+  - DELETE
+  - `http://localhost:3000/users/:id`
+
+  ```
+#### Orders
+
+- Index [token required] (all orders)
+    - GET `http://localhost:3000/order/`
+- Show [token required]
+    - GET
+    - `http://localhost:3000/order/:id`
+- Current Order by user (args: user id)
+    - GET
+     - `http://localhost:3000/order/current-order/:id`
+- Create New Order[token required]
+    - POST
+    - `http://localhost:3000/order/`
+- Update [token required]
+  - PUT
+  - `http://localhost:3000/order/:id`
+- Delete [token required] 
+  - DELETE
+  - `http://localhost:3000/order/:id`
+
+  ```
 
 ## Installation Instructions:
 Install packages used in this project and how to install them.
